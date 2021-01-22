@@ -1,4 +1,4 @@
-
+// https://github.com/NUSHOHEL/solved-problem
 
 
 
@@ -30,8 +30,8 @@ function budgetCalculator(watch, mobile, laptop){
     var watch = watch * 50;
     var mobile = mobile * 100;
     var laptop = laptop * 500;
-    
-    return watch + mobile + laptop;
+    var budget = watch + mobile + laptop;
+    return budget
 }
 
 
